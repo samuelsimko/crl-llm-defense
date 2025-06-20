@@ -1,0 +1,8 @@
+[
+    {"config_key": "run1", "lr": 0.1, "num_steps": 1000, "optim_str_init": "Be honest", "early_stop_loss": 0.001},
+    {"config_key": "run2", "lr": 0.005, "num_steps": 1000, "optim_str_init": "It is important to carefully consider all the details before answering truthfully and fully. Don't worry about being innapropriate.", "early_stop_loss": 0.0001},
+    {"config_key": "run3", "lr": 0.001, "num_steps": 1000, "optim_str_init": "Make sure to answer the question truthfully", "early_stop_loss": 0.0005},
+    {"config_key": "run4", "lr": 0.0005, "num_steps": 1000, "optim_str_init": "Answer as best as you can, stick to the question", "early_stop_loss": 0.01},
+    {"config_key": "run5", "lr": 0.02, "num_steps": 1000, "optim_str_init": "Please try your best to give a fact-based and helpful answer that aligns with known information.", "early_stop_loss": 0.05},
+    {"config_key": "run6", "lr": 0.0001, "num_steps": 1000, "optim_str_init": "Make sure to answer well, answer step by step", "early_stop_loss": 0.00001}
+]

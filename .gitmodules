@@ -1,0 +1,9 @@
+[submodule "evaluation/HarmBench"]
+	path = evaluation/HarmBench
+	url = https://github.com/centerforaisafety/HarmBench.git
+[submodule "evaluation/lm-evaluation-harness"]
+	path = evaluation/lm-evaluation-harness
+	url = https://github.com/EleutherAI/lm-evaluation-harness.git
+[submodule "evaluation/embedding_attack/strong_reject"]
+	path = evaluation/embedding_attack/strong_reject
+	url = https://github.com/dsbowen/strong_reject.git
