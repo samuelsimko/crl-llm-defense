@@ -3,8 +3,6 @@
 This repository contains the code for the paper ["Improving Large Language Model Safety with Contrastive Representation Learning"](https://arxiv.org/abs/2506.11938) by Samuel Simko, Mrinmaya Sachan, Bernhard Schölkopf, and Zhijing Jin.
 The paper presents a method to finetunes a model using a triplet-based loss combined with adversarial hard negative mining to encourage separation between benign and harmful representations. The method naturally extends the circuit breakers method.
 
-> **Note:** This repository is under development. We will update and refactor the code in the coming days to weeks.
-
 ## Contents
 
 The repository contains the following directories:
@@ -23,6 +21,9 @@ To test general performance, install and run the lm-evaluation-harness package.
 
 <img src="assets/table.png" alt="Performance of our method on Llama 3 8B" width="60%"/>
 
+Trained Models:
+- https://huggingface.co/samuelsimko/Meta-Llama-3-8B-Instruct-Triplet
+- https://huggingface.co/samuelsimko/Meta-Llama-3-8B-Instruct-Triplet-Adv
 
 ## How to use
 ### Training
